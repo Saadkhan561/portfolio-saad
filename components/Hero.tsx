@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Code, Link, Mail } from "lucide-react";
 import Image from "next/image";
+import Typewriter from "typewriter-effect";
 
 export default function Hero() {
   return (
@@ -39,8 +40,19 @@ export default function Hero() {
         </motion.div>
 
 
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
-          Hi, I'm <span className="text-gradient">Saad Khan</span>
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 h-32 md:h-auto">
+          <span>Hi, I'm</span>
+          <span className="text-gradient">
+            <Typewriter
+              options={{
+                strings: ['Saad Khan', 'a Full Stack Dev', 'a UI/UX Enthusiast'],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 50,
+                delay: 80,
+              }}
+            />
+          </span>
         </h1>
         <motion.p 
           initial={{ opacity: 0 }}
