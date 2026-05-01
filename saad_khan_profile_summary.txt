@@ -1,0 +1,121 @@
+TECH STACK
+
+Frontend
+- HTML
+- CSS
+- Tailwind CSS
+- React.js
+- Next.js
+- Redux
+- Zustand
+
+Backend
+- Node.js
+- Express.js
+- NestJS
+- .NET
+
+Databases
+- SQL
+- MySQL
+- MongoDB
+- PostgreSQL
+- Supabase
+
+Programming Languages
+- JavaScript
+- TypeScript
+- Python
+
+Tools & Version Control
+- Git
+- GitHub
+
+Additional Technologies & Concepts
+- REST APIs
+- WebSocket APIs
+- Authentication & Authorization
+- TanStack Query
+- Nodemailer
+- Responsive Design
+- CRUD Operations
+- State Management
+- Database Schema Design
+
+
+EXPERIENCE
+
+Full Stack Developer — The Botss
+Sep 2025 – Present
+
+- Developing and maintaining full-stack web applications using:
+  - Next.js
+  - NestJS
+  - Node.js
+  - PostgreSQL
+- Designing scalable APIs and database schemas
+- Working on complete product lifecycle:
+  - architecture
+  - development
+  - deployment
+  - optimization
+- Collaborating with cross-functional teams to build performant and maintainable products
+
+
+Full Stack Developer — Zenkoders
+Nov 2024 – Aug 2025
+
+- Built responsive frontend applications using React and Next.js
+- Integrated RESTful and WebSocket APIs for real-time communication
+- Implemented secure authentication and authorization workflows
+- Collaborated with UI/UX designers and backend engineers in agile environments
+- Improved frontend performance through:
+  - code refactoring
+  - caching strategies
+  - responsive optimization
+
+
+PROJECTS
+
+Ecommerce Perfume Store
+
+Tech Used:
+- Next.js
+- Express.js
+- MongoDB
+- Zustand
+- TanStack Query
+- Nodemailer
+
+Features:
+- Product browsing & category management
+- Cart functionality
+- WhatsApp integration
+- Admin panel with CRUD operations
+- Order management workflows
+- Email notifications
+
+
+Digital Board Pack (Industry-Based FYP)
+Client: Pakistan Oxygens Ltd.
+
+Tech Used:
+- Next.js
+- .NET
+- SQL
+
+Features:
+- Document management system
+- Version control
+- Secure document access
+- Responsive frontend
+- Optimized database schemas
+
+
+CERTIFICATES
+
+- AI with Python — NCAI, CERD Academy
+- Javascript Basics — Udemy
+- Javascript & React Hands-on — Udemy
+- Internship as a React Developer — NCL Lab, NED
+- Internship as a Web Developer — BehinDev
