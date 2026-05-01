@@ -8,7 +8,7 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 glass rounded-full px-6 py-3 flex gap-6"
+      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 bg-black/50 rounded-full px-6 py-3 flex gap-6"
     >
       {["Home", "Tech", "Experience", "Projects", "Contact"].map((item) => (
         <a

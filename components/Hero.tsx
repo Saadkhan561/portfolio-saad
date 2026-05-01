@@ -13,8 +13,16 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-center z-10 px-4"
+        className="text-center z-10 px-4 mt-12"
       >
+        <motion.h2 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          className="text-cyan-400 font-mono mb-4 tracking-widest uppercase text-sm"
+        >
+          Welcome to my portfolio
+        </motion.h2>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -30,14 +38,7 @@ export default function Hero() {
           />
         </motion.div>
 
-        <motion.h2 
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          className="text-cyan-400 font-mono mb-4 tracking-widest uppercase text-sm"
-        >
-          Welcome to my portfolio
-        </motion.h2>
+
         <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
           Hi, I'm <span className="text-gradient">Saad Khan</span>
         </h1>
@@ -60,9 +61,9 @@ export default function Hero() {
             View My Work <ArrowRight size={18} />
           </a>
           <div className="flex gap-6 items-center px-4">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors"><Code /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors"><Link /></a>
-            <a href="mailto:contact@example.com" className="text-gray-400 hover:text-white transition-colors"><Mail /></a>
+            <a href="https://github.com/Saadkhan561" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors"><Code /></a>
+            <a href="https://www.linkedin.com/in/saad-khan-89aa943a0?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors"><Link /></a>
+            <a href="mailto:[EMAIL_ADDRESS]" className="text-gray-400 hover:text-white transition-colors"><Mail /></a>
           </div>
         </motion.div>
       </motion.div>
