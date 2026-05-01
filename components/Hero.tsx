@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Code, Link, Mail } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -14,6 +15,21 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="text-center z-10 px-4"
       >
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="relative w-32 h-32 md:w-48 md:h-48 mx-auto mb-8 rounded-full overflow-hidden border-4 border-cyan-500/30 shadow-[0_0_30px_rgba(6,182,212,0.3)]"
+        >
+          <Image
+            src="/saad_avatar.png"
+            alt="Saad Khan Avatar"
+            fill
+            className="object-cover"
+            priority
+          />
+        </motion.div>
+
         <motion.h2 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

@@ -6,7 +6,7 @@ const experiences = [
   {
     role: "Full Stack Developer",
     company: "The Botss",
-    period: "Sep 2025 – Present",
+    period: "Sep 2025 – Feb 2026",
     desc: [
       "Developing and maintaining full-stack web applications using Next.js, NestJS, Node.js, PostgreSQL.",
       "Designing scalable APIs and database schemas.",
