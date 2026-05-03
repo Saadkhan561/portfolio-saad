@@ -45,7 +45,7 @@ export default function Hero() {
           <span className="text-gradient">
             <Typewriter
               options={{
-                strings: ['Saad Khan', 'a Full Stack Dev', 'a UI/UX Enthusiast'],
+                strings: ['Saad Khan', 'a Full Stack Dev'],
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 50,
@@ -75,7 +75,7 @@ export default function Hero() {
           <div className="flex gap-6 items-center px-4">
             <a href="https://github.com/Saadkhan561" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors"><Code /></a>
             <a href="https://www.linkedin.com/in/saad-khan-89aa943a0?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors"><Link /></a>
-            <a href="mailto:[EMAIL_ADDRESS]" className="text-gray-400 hover:text-white transition-colors"><Mail /></a>
+            {/* <a href="mailto:[EMAIL_ADDRESS]" className="text-gray-400 hover:text-white transition-colors"><Mail /></a> */}
           </div>
         </motion.div>
       </motion.div>

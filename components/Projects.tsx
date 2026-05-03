@@ -77,14 +77,14 @@ export default function Projects() {
                   ))}
                 </div>
                 
-                <div className="flex gap-4 mt-auto">
+                {/* <div className="flex gap-4 mt-auto">
                   <a href={project.github} className="flex items-center gap-2 text-sm text-white hover:text-cyan-400 transition-colors">
                     <Code size={16} /> Code
                   </a>
                   <a href={project.link} className="flex items-center gap-2 text-sm text-white hover:text-cyan-400 transition-colors">
                     <ExternalLink size={16} /> Live Demo
                   </a>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}
