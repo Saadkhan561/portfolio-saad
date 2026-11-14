@@ -4,25 +4,48 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    role: "Frontend Engineer",
+    company: "Saif Inspirations",
+    period: "June 2026 – Present",
+    desc: [
+      "Developed production-grade healthcare applications using React, Next.js, JavaScript, and Material UI for responsive and scalable clinical workflows.",
+      "Improved frontend performance and maintainability through React best practices, reusable components, optimized state management, and efficient rendering.",
+      "Integrated REST APIs with robust validation, error handling, and secure data management for healthcare and patient-related workflows.",
+      "Applied HIPAA-aligned security practices to protect sensitive data and mitigate risks such as XSS, unauthorized access, and unintended data exposure."
+    ]
+  },
+  {
+    role: "Full Stack Developer",
+    company: "Qvise Ltd.",
+    period: "April 2026 – June 2026",
+    desc: [
+      "Developed and maintained scalable web applications, building responsive and user-friendly frontend interfaces using React.js.",
+      "Designed and implemented robust backend APIs and business logic using Express.js and Node.js, ensuring secure and efficient data processing.",
+      "Built, optimized, and managed PostgreSQL databases, including schema design, query optimization, and data integrity.",
+      "Collaborated with cross-functional teams to develop, test, deploy, and enhance end-to-end product features, delivering high-quality software throughout the product lifecycle."
+    ]
+  },
+  {
     role: "Full Stack Developer",
     company: "The Botss",
-    period: "Sep 2025 – Feb 2026",
+    period: "September 2025 – February 2026",
     desc: [
-      "Developing and maintaining full-stack web applications using Next.js, NestJS, Node.js, PostgreSQL.",
-      "Designing scalable APIs and database schemas.",
-      "Working on complete product lifecycle: architecture, development, deployment, optimization.",
-      "Collaborating with cross-functional teams to build performant and maintainable products."
+      "Developing and maintaining a full-stack web application using Next.js, NestJS, Node.js, and PostgreSQL for the company's core product.",
+      "Designing and implementing scalable APIs and database schemas to ensure optimal performance and data integrity.",
+      "Collaborating with cross-functional teams to deliver end-to-end product features with a focus on usability, performance, and maintainability.",
+      "Contributing to the complete product lifecycle, from architecture and development to integration, deployment, and optimization."
     ]
   },
   {
     role: "Full Stack Developer",
     company: "Zenkoders",
-    period: "Nov 2024 – Aug 2025",
+    period: "August 2024 – August 2025",
     desc: [
-      "Built responsive frontend applications using React and Next.js.",
-      "Integrated RESTful and WebSocket APIs for real-time communication.",
-      "Implemented secure authentication and authorization workflows.",
-      "Improved frontend performance through code refactoring, caching strategies, and responsive optimization."
+      "Developed dynamic, responsive front-end solutions using modern JavaScript frameworks (React, Next.js) to enhance usability and cross-device compatibility.",
+      "Integrated RESTful and WebSocket APIs to enable real-time communication, improving data synchronization and user engagement.",
+      "Implemented secure authentication and authorization workflows to support scalability, data protection, and compliance standards.",
+      "Collaborated with UI/UX designers and backend engineers to deliver robust, user-centric features within agile development cycles.",
+      "Optimized frontend performance through code refactoring, caching strategies, and responsive design techniques, ensuring seamless functionality across all devices."
     ]
   }
 ];
